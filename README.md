@@ -30,15 +30,21 @@ We analyze the text content to:
 - Identify unique named entities and track their frequency
 
 📁 Output: A dataset of messages with extracted named entities (potential ticker mentions)
-![Most Mentioned Tickers](2%20NER/Most%20Mentioned%20Tickers.png)
 
-*Figure 1: Most frequently mentioned tickers in Telegram chats*
-<p align="center">
-  <img src="2%20NER/Most%20Mentioned%20Tickers.png" alt="Most Mentioned Tickers" width="500">
-  <br>
-  <em>Figure 1: Most frequently mentioned tickers in Telegram chats</em>
-</p>
-
+<table>
+  <tr>
+    <td align="center">
+      <img src="2%20NER/Most%20Mentioned%20Tickers.png" alt="Most Mentioned Tickers" width="400">
+      <br>
+      <em>Figure 1: Most frequently mentioned tickers in Telegram chats</em>
+    </td>
+    <td align="center">
+      <img src="2%20NER/Ticker%20Mentions%20by%20Date%20and%20Chat.png" alt="Ticker Mentions Over Time" width="400">
+      <br>
+      <em>Figure 2: Ticker mentions over time and across Telegram chats</em>
+    </td>
+  </tr>
+</table>
 
 ---
 
