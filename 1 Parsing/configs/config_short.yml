@@ -1,0 +1,89 @@
+channels: 
+   - 'https://t.me/moexwolf'
+   - 'https://t.me/cozytrade_1'
+   - 'https://t.me/kuzmlab'
+   - 'https://t.me/alenka_capital_comon'
+   - 'https://t.me/BigBro_moex'
+   - 'https://t.me/stockoffinvest'
+   - 'https://t.me/mozgovikresearch'
+   - 'https://t.me/altorafund'
+   - 'https://t.me/birzhevikstocksofficial2'
+   - 'https://t.me/LadimirKapital'
+   - 'https://t.me/GBEanalytix'
+   - 'https://t.me/rynok_znania'
+   - 'https://t.me/moovetradee'
+   - 'https://t.me/professorPumpkin'
+   - 'https://t.me/araketa'
+   - 'https://t.me/malishok_fonda'
+   - 'https://t.me/vadya93_official'
+   - 'https://t.me/AROMATH' 
+   - 'https://t.me/romanandreev_trader' 
+   - 'https://t.me/smartlabnews' 
+   - 'https://t.me/martynovtim' 
+   - 'https://t.me/invest_budka' 
+   - 'https://t.me/invest_fynbos' 
+   - 'https://t.me/razb0rka' 
+   - 'https://t.me/truecon' 
+   - 'https://t.me/harmfulinvestor' 
+   - 'https://t.me/atlant_signals' 
+   - 'https://t.me/meatinvestor' 
+   - 'https://t.me/AskVasili4'
+   - 'https://t.me/shadrininvest' 
+
+channel_ids:
+   - -1001511455705
+   - -1001485074571
+   - -1001241408755
+   - -1001168264411
+   - -1001666192661
+   - -1001775120617
+   - -1001298248713
+   - -1001262053008
+   - -1001313313883
+   - -1001681261562
+   - -1001458669532
+   - -1001823599276
+   - -1001433549619
+   - -1001282811869
+   - -1001754254720
+   - -1001750974618
+   - -1001595771315
+   - -1001301503307
+   - -1001826737118
+   - -1001063908560
+   - -1001219256968
+   - -1001190535599
+   - -1001537308017
+   - -1001707166728
+   - -1001344892461
+   - -1001611209603
+   - -1001155666448
+   - -1001421026820
+   - -1001235300570
+   - -1001129797634
+
+# which data we want to extract, explanation available via the link
+# https://docs.pyrogram.org/api/types/Message 
+keys:
+  - "id"
+  - "date"
+  - "text"
+  - "caption"
+  - "from_user" 
+  - "chat" 
+  - "forward_from"
+  - "forward_sender_name"
+  - "reply_to_message_id"
+  - "reply_to_top_message_id"
+  - "reply_to_message" 
+  - "mentioned" 
+  - "media" 
+  - "poll" 
+  - "views"
+  - "reactions"
+  - "link" 
+
+# limit on the number of messages to fetch from a single chat
+limit: 20000 
+date_start: '2024-05-01'
+data_path: ".../1 Parsing/data"

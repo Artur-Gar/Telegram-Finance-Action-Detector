@@ -1,0 +1,4 @@
+creds: ""
+model: "GigaChat-Pro" 
+filter_value: 0.8
+df_ner_firms_PATH: ".../2 Ner/firms_NER_dataset_flatten.xlsx"
