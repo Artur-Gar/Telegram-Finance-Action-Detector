@@ -73,8 +73,36 @@ We use a custom-built library powered by an **LLM (GigaChat)** to determine:
 
 ## 📁 Folder Structure
 
-ddddddddddddddddddddddd
-ddddddddddddddddddddddd
+Telegram-Finance-Action-Detector/
+│
+├── 1 Parsing/                            # Telegram message collection
+│   ├── configs/                          # Chat/channel configuration files
+│   ├── data/                             # Parsed raw message data
+│   ├── tg_news/                          # Telegram parsing logic (e.g., using Pyrogram)
+│   │   └── pyrogram_parser_short.py
+│   └── tg chanels features.xlsx          # Chat metadata/features
+│
+├── 2 NER/                                # Named Entity Recognition (ticker extraction)
+│   ├── data/                             # Intermediate NER outputs
+│   ├── nlp_modules/                      # spaCy-based entity extraction + matching
+│   ├── Chats_statistics.ipynb            # Visual analysis of NER results
+│   ├── Most Mentioned Tickers.png        # Figure 1: bar chart of top tickers
+│   ├── Ticker Mentions by Date and Chat.png  # Figure 2: heatmap over time and chats
+│   └── spacy_little_example.ipynb        # NER demo notebook
+│
+├── 3 Matching NER and Candles/           # Price anomaly matching
+│   ├── data/                             # Ticker OHLCV (candlestick) data
+│   └── Matching_candles_and_tickers.ipynb  # Logic for linking NER + price movements
+│
+├── 4 Custom Library for Call to Action Identification/  # LLM-based intent detection
+│   ├── configs/                          # Prompt schema definitions
+│   ├── ners_and_calls_modules/           # Main LLM logic (Kor + GigaChat)
+│   ├── README.md                         # Library usage instructions
+│   └── testing.ipynb                     # Example usage of final LLM detection
+│
+├── all_chats_and_channels.xlsx           # Full list of observed Telegram chats
+└── README.md                             # Main project documentation (this file)
+
 
 ---
 
