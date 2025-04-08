@@ -36,7 +36,7 @@ We analyze the text content to:
 <p align="center">
   <img src="2%20NER/Most%20Mentioned%20Tickers.png" alt="Most Mentioned Tickers" width="66%">
 </p>
-
+*Figure 1: Most frequently mentioned tickers in Telegram chats*
 ---
 
 ### **3. Price Anomaly Filtering and Matching**
