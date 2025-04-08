@@ -18,7 +18,7 @@ We collect raw data by:
 - Extracting messages from relevant Telegram groups and channels using their **usernames or chat IDs**
 - Saving all messages **daily** into `.xlsx` files over the observation period
 
-📁 Output: A daily archive of all Telegram posts/messages
+📁 Output: A multitude of daily archives of all Telegram posts/messages
 
 ---
 
