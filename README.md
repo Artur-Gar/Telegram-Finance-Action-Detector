@@ -33,6 +33,9 @@ We analyze the text content to:
 ![Most Mentioned Tickers](2%20NER/Most%20Mentioned%20Tickers.png)
 
 *Figure 1: Most frequently mentioned tickers in Telegram chats*
+<p align="center">
+  <img src="2%20NER/Most%20Mentioned%20Tickers.png" alt="Most Mentioned Tickers" width="66%">
+</p>
 
 ---
 
