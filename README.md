@@ -120,13 +120,6 @@ This pipeline enables compliance teams, market analysts, or research groups to:
 
 ---
 
-## 🧠 Need Help?
-
-Start by reading the [ners_and_calls_modules/README.md](ners_and_calls_modules/README.md)  
-Or reach out to the project team if you'd like to integrate new data sources or models.
-
----
-
 ## 📝 Author
 
 **Artur Garipov**  
